@@ -1,0 +1,240 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "@fontsource/source-sans-pro/400.css";
+@import "@fontsource/source-sans-pro/600.css";
+@import "@fontsource/source-sans-pro/700.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme {
+  --font-sans: "Source Sans Pro", system-ui, sans-serif;
+}
+
+@utility font-sans {
+  font-family: "Source Sans Pro", system-ui, sans-serif;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-header: #143A69;
+  --color-success: hsl(var(--success));
+  --color-warning: hsl(var(--warning));
+  --color-purple-1: hsl(var(--purple-1));
+  --color-purple-2: hsl(var(--purple-2));
+  --color-purple-3: hsl(var(--purple-3));
+  --color-purple-4: hsl(var(--purple-4));
+  --color-purple-5: hsl(var(--purple-5));
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.129 0.042 264.695);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.129 0.042 264.695);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.129 0.042 264.695);
+  --primary: oklch(0.523 0.153 259.5);
+  --primary-foreground: oklch(1 0 0);
+  --primary-hover: oklch(0.462 0.147 259.5);
+  --secondary: oklch(1 0 0);
+  --secondary-foreground: oklch(0.523 0.153 259.5);
+
+  --muted: oklch(0.968 0.007 247.896);
+  --muted-foreground: oklch(0.554 0.046 257.417);
+  --accent: oklch(0.968 0.007 247.896);
+  --accent-foreground: oklch(0.208 0.042 265.755);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.929 0.013 255.508);
+  --input: oklch(0.929 0.013 255.508);
+  --ring: oklch(0.704 0.04 256.788);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.984 0.003 247.858);
+  --sidebar-foreground: oklch(0.129 0.042 264.695);
+  --sidebar-primary: oklch(0.208 0.042 265.755);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.968 0.007 247.896);
+  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
+  --sidebar-border: oklch(0.929 0.013 255.508);
+  --sidebar-ring: oklch(0.704 0.04 256.788);
+
+  /* Reports module tokens (HSL space-separated, used via hsl(var(--token))) */
+  --purple-1: 285 37% 93%;
+  --purple-2: 270 35% 85%;
+  --purple-3: 266 33% 55%;
+  --purple-4: 252 35% 46%;
+  --purple-5: 252 40% 38%;
+  --success: 142 70% 45%;
+  --warning: 38 92% 50%;
+  --gray-5: 0 0% 40%;
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.984 0.003 247.858);
+  --card: oklch(0.208 0.042 265.755);
+  --card-foreground: oklch(0.984 0.003 247.858);
+  --popover: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.929 0.013 255.508);
+  --primary-foreground: oklch(0.208 0.042 265.755);
+  --secondary: oklch(0.279 0.041 260.031);
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --muted: oklch(0.279 0.041 260.031);
+  --muted-foreground: oklch(0.704 0.04 256.788);
+  --accent: oklch(0.279 0.041 260.031);
+  --accent-foreground: oklch(0.984 0.003 247.858);
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.208 0.042 265.755);
+  --sidebar-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.279 0.041 260.031);
+  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.551 0.027 264.364);
+}
+
+/* Imported reports module visual scope — mirrors the source reports design system
+   without changing the rest of the Sweets household app. */
+.reports-scope {
+  --background: hsl(210 20% 96%);
+  --foreground: hsl(215 25% 25%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(215 25% 25%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(215 25% 25%);
+  --primary: hsl(210 50% 25%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(210 40% 96%);
+  --secondary-foreground: hsl(210 50% 25%);
+  --muted: hsl(210 25% 88%);
+  --muted-foreground: hsl(215 15% 50%);
+  --accent: hsl(200 85% 45%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(0 70% 50%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(214 20% 88%);
+  --input: hsl(214 20% 92%);
+  --ring: hsl(200 85% 45%);
+  --chart-1: hsl(142 70% 45%);
+  --chart-2: hsl(200 85% 45%);
+  --chart-3: hsl(38 92% 50%);
+  --chart-4: hsl(0 70% 50%);
+  --chart-5: hsl(280 65% 60%);
+  --reports-background: 210 20% 96%;
+  --reports-primary: 210 50% 25%;
+  --reports-muted-foreground: 215 15% 50%;
+  --reports-border: 214 20% 88%;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.reports-scope .text-xs   { font-size: 12px; line-height: 1.4; }
+.reports-scope .text-sm   { font-size: 14px; line-height: 1.5; }
+.reports-scope .text-base { font-size: 16px; line-height: 1.5; }
+.reports-scope .text-lg   { font-size: 18px; line-height: 1.5; }
+.reports-scope .text-xl   { font-size: 20px; line-height: 1.4; }
+.reports-scope .text-2xl  { font-size: 24px; line-height: 1.3; }
+.reports-scope .text-3xl  { font-size: 30px; line-height: 1.25; }
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: "Source Sans Pro", system-ui, sans-serif;
+  }
+}
+
+/* Meeting IQ content scope — readable 13px+ baseline for ported content areas.
+   Overrides Tailwind text-* utilities (which are rem-based off the global
+   14px root) so the ported UI doesn't render at 10–12px. */
+.miq-scope {
+  font-size: 13px;
+  line-height: 1.45;
+}
+.miq-scope .text-xs   { font-size: 12px; line-height: 1.4; }
+.miq-scope .text-sm   { font-size: 13px; line-height: 1.45; }
+.miq-scope .text-base { font-size: 14px; line-height: 1.5; }
+.miq-scope .text-lg   { font-size: 16px; line-height: 1.5; }
+.miq-scope .text-xl   { font-size: 18px; line-height: 1.4; }
+.miq-scope .text-2xl  { font-size: 22px; line-height: 1.3; }
+
+

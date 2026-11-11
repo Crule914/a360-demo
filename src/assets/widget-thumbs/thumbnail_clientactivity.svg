@@ -1,0 +1,40 @@
+<svg width="180" height="92" viewBox="0 0 180 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="thumbnail_client_activities">
+<g id="Widget/Background">
+<path id="Background" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H180V92H0V0Z" fill="white"/>
+</g>
+<g id="Content">
+<g id="Section 01">
+<path id="Dark Blue Title" fill-rule="evenodd" clip-rule="evenodd" d="M61 48V50H6V48" fill="black"/>
+<rect id="Rectangle Copy" x="6" y="54" width="35" height="2" fill="#1061CB"/>
+<path id="Path Copy" fill-rule="evenodd" clip-rule="evenodd" d="M174 54V56H154V54" fill="#999999"/>
+</g>
+<g id="Section 01 Copy">
+<path id="Dark Blue Title_2" fill-rule="evenodd" clip-rule="evenodd" d="M61 66V68H6V66" fill="black"/>
+<rect id="Rectangle Copy_2" x="6" y="72" width="35" height="2" fill="#1061CB"/>
+<rect id="Rectangle Copy 2" x="6" y="78" width="35" height="2" fill="#1061CB"/>
+<path id="Path Copy_2" fill-rule="evenodd" clip-rule="evenodd" d="M174 72V74H154V72" fill="#999999"/>
+<path id="Path Copy 2" fill-rule="evenodd" clip-rule="evenodd" d="M174 78V80H154V78" fill="#999999"/>
+</g>
+<rect id="Rectangle" x="6" y="37" width="168" height="1" fill="#CCCCCC"/>
+<g id="Top Icons">
+<g id="Group">
+<rect id="Icon" x="15" y="10" width="13" height="13" rx="6.5" fill="#1061CB"/>
+<rect id="Title" x="12" y="25" width="19" height="2" fill="#1061CB"/>
+</g>
+<g id="Group Copy">
+<rect id="Icon_2" x="61" y="10" width="13" height="13" rx="6.5" fill="#1061CB"/>
+<rect id="Title_2" x="58" y="25" width="19" height="2" fill="#1061CB"/>
+</g>
+<g id="Group Copy 2">
+<rect id="Icon_3" x="106" y="10" width="13" height="13" rx="6.5" fill="#1061CB"/>
+<rect id="Title_3" x="103" y="25" width="19" height="2" fill="#1061CB"/>
+</g>
+<g id="Group Copy 3">
+<rect id="Icon_4" x="152" y="10" width="13" height="13" rx="6.5" fill="#1061CB"/>
+<rect id="Title_4" x="149" y="25" width="19" height="2" fill="#1061CB"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

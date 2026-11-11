@@ -1,0 +1,49 @@
+<svg width="180" height="92" viewBox="0 0 180 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H180V92H0V0Z" fill="white"/>
+<path d="M6 18H26V20H6V18Z" fill="#666666"/>
+<path d="M6 23H16V25H6V23Z" fill="#1061CB"/>
+<path d="M51 23H61V25H51V23Z" fill="#1061CB"/>
+<path d="M96 23H106V25H96V23Z" fill="#1061CB"/>
+<path d="M141 23H151V25H141V23Z" fill="#1061CB"/>
+<path d="M51 18H71V20H51V18Z" fill="#666666"/>
+<path d="M96 18H116V20H96V18Z" fill="#666666"/>
+<path d="M141 18H161V20H141V18Z" fill="#666666"/>
+<path d="M6 34H46V36H6V34Z" fill="#CCCCCC"/>
+<path d="M131 34H151V36H131V34Z" fill="#CCCCCC"/>
+<path d="M154 34H174V36H154V34Z" fill="#CCCCCC"/>
+<path d="M164 40H174V42H164V40Z" fill="black"/>
+<path d="M141 40H151V42H141V40Z" fill="black"/>
+<path d="M169 45H174V47H169V45Z" fill="#666666"/>
+<path d="M146 45H151V47H146V45Z" fill="#666666"/>
+<path d="M169 50H174V52H169V50Z" fill="#666666"/>
+<path d="M146 50H151V52H146V50Z" fill="#666666"/>
+<path d="M169 55H174V57H169V55Z" fill="#666666"/>
+<path d="M146 55H151V57H146V55Z" fill="#666666"/>
+<path d="M169 65H174V67H169V65Z" fill="#666666"/>
+<path d="M146 65H151V67H146V65Z" fill="#666666"/>
+<path d="M169 70H174V72H169V70Z" fill="#666666"/>
+<path d="M146 70H151V72H146V70Z" fill="#666666"/>
+<path d="M169 80H174V82H169V80Z" fill="#666666"/>
+<path d="M146 80H151V82H146V80Z" fill="#666666"/>
+<path d="M164 60H174V62H164V60Z" fill="black"/>
+<path d="M141 60H151V62H141V60Z" fill="black"/>
+<path d="M164 75H174V77H164V75Z" fill="black"/>
+<path d="M141 75H151V77H141V75Z" fill="black"/>
+<path d="M26 45H76V47H26V45Z" fill="#006FCF"/>
+<path d="M26 50H86V52H26V50Z" fill="#006FCF"/>
+<path d="M26 65H86V67H26V65Z" fill="#006FCF"/>
+<path d="M26 80H66V82H26V80Z" fill="#006FCF"/>
+<path d="M26 70H106V72H26V70Z" fill="#006FCF"/>
+<path d="M26 55H56V57H26V55Z" fill="#006FCF"/>
+<path d="M6 10H36V12H6V10Z" fill="#666666"/>
+<path d="M41 10H71V12H41V10Z" fill="#1061CB"/>
+<path d="M19 40H92V42H19V40Z" fill="#006FCF"/>
+<circle cx="8.5" cy="40.5" r="1.5" fill="#006FCF"/>
+<path d="M13 39H16V42H13V39Z" fill="#006FCF"/>
+<path d="M19 60H92V62H19V60Z" fill="#006FCF"/>
+<circle cx="8.5" cy="60.5" r="1.5" fill="#006FCF"/>
+<path d="M13 59H16V62H13V59Z" fill="#006FCF"/>
+<path d="M19 75H92V77H19V75Z" fill="#006FCF"/>
+<circle cx="8.5" cy="75.5" r="1.5" fill="#006FCF"/>
+<path d="M13 74H16V77H13V74Z" fill="#006FCF"/>
+</svg>

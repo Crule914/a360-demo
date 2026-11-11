@@ -1,0 +1,46 @@
+<svg width="180" height="92" viewBox="0 0 180 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="thumbnail_insurance">
+<g id="Widget/Background">
+<path id="Background" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H180V92H0V0Z" fill="white"/>
+</g>
+<g id="Content">
+<path id="Title-Copy" d="M6 10H28V12H6V10Z" fill="black"/>
+<path id="Title-Copy-2" d="M6 64H28V66H6V64Z" fill="black"/>
+<path id="Title-Copy-3" d="M6 72H60V74H6V72Z" fill="#999999"/>
+<path id="Title-Copy-5" d="M114 72H138V74H114V72Z" fill="#1061CB"/>
+<path id="Title-Copy-7" d="M144 72H152V74H144V72Z" fill="#999999"/>
+<path id="Title-Copy-9" d="M158 72H173V74H158V72Z" fill="#999999"/>
+<path id="Title-Copy-4" d="M6 79H49V81H6V79Z" fill="#999999"/>
+<path id="Title-Copy-6" d="M114 79H138V81H114V79Z" fill="#1061CB"/>
+<path id="Title-Copy-8" d="M144 79H152V81H144V79Z" fill="#999999"/>
+<path id="Title-Copy-10" d="M158 79H173V81H158V79Z" fill="#999999"/>
+<g id="Content_2">
+<path id="Path" d="M95 20H125V22H95V20Z" fill="#999999"/>
+<path id="Path-Copy" d="M95 52H125V54H95V52Z" fill="black"/>
+<path id="Path_2" d="M146 20H156V22H146V20Z" fill="#999999"/>
+<path id="Path-Copy-2" d="M146 52H156V54H146V52Z" fill="black"/>
+<path id="Path_3" d="M89 19H92V22H89V19Z" fill="#18447C"/>
+<path id="Path_4" d="M95 28H125V30H95V28Z" fill="#999999"/>
+<path id="Path_5" d="M146 28H156V30H146V28Z" fill="#999999"/>
+<path id="Path_6" d="M89 27H92V30H89V27Z" fill="#2CABE2"/>
+<path id="Path_7" d="M95 36H125V38H95V36Z" fill="#999999"/>
+<path id="Path_8" d="M146 36H156V38H146V36Z" fill="#999999"/>
+<path id="Path_9" d="M89 35H92V38H89V35Z" fill="#2798AA"/>
+<path id="Path_10" d="M95 44H125V46H95V44Z" fill="#999999"/>
+<path id="Path_11" d="M146 44H156V46H146V44Z" fill="#999999"/>
+<path id="Path_12" d="M89 43H92V46H89V43Z" fill="#5A9A3C"/>
+</g>
+<g id="Chart">
+<path id="Combined-Shape" d="M52.4926 14.0681L52.4926 27.1376C50.4482 27.1376 48.5578 27.7968 47.0223 28.9142L39.3403 18.3416C43.3394 15.436 47.5494 14.0681 52.4926 14.0681Z" fill="#5A9A3C"/>
+<path id="Stroke-3" fill-rule="evenodd" clip-rule="evenodd" d="M52.4926 36.4442L39.3403 18.3416C43.3394 15.436 47.5494 14.0681 52.4926 14.0681V36.4442Z" stroke="white" stroke-width="0.5"/>
+<path id="Combined-Shape_2" d="M39.3403 18.3417L47.0217 28.9148C45.4512 30.0578 44.2521 31.6803 43.6393 33.567L31.2118 29.5296C32.7393 24.8284 35.3412 21.2472 39.3403 18.3417Z" fill="#2798AA"/>
+<path id="Stroke-7" fill-rule="evenodd" clip-rule="evenodd" d="M52.4926 36.4442L31.2118 29.5296C32.7393 24.8284 35.3412 21.2472 39.3403 18.3417L52.4926 36.4442Z" stroke="white" stroke-width="0.5"/>
+<path id="Combined-Shape_3" d="M31.2118 29.5295L43.639 33.568C43.345 34.4737 43.186 35.4404 43.186 36.4441C43.186 39.5396 44.6973 42.2821 47.0223 43.9741L39.3403 54.5467C31.342 48.7357 28.1567 38.932 31.2118 29.5295Z" fill="#2CABE2"/>
+<path id="Stroke-11" fill-rule="evenodd" clip-rule="evenodd" d="M52.4926 36.4441L39.3403 54.5467C31.342 48.7357 28.1567 38.932 31.2118 29.5295L52.4926 36.4441Z" stroke="white" stroke-width="0.5"/>
+<path id="Combined-Shape_4" d="M52.4926 14.0681C64.8505 14.0681 74.8686 24.0862 74.8686 36.4442C74.8686 48.8021 64.8505 58.8202 52.4926 58.8202C47.5494 58.8202 43.3394 57.4522 39.3403 54.5467L47.0223 43.9741C48.5578 45.0915 50.4482 45.7507 52.4926 45.7507C57.6324 45.7507 61.7991 41.584 61.7991 36.4442C61.7991 31.3043 57.6324 27.1376 52.4926 27.1376L52.4926 14.0681Z" fill="#18447C"/>
+<path id="Stroke-15" fill-rule="evenodd" clip-rule="evenodd" d="M52.4926 36.4442V14.0681C64.8505 14.0681 74.8686 24.0862 74.8686 36.4442C74.8686 48.8021 64.8505 58.8202 52.4926 58.8202C47.5494 58.8202 43.3394 57.4522 39.3403 54.5467L52.4926 36.4442Z" stroke="white" stroke-width="0.5"/>
+<circle id="Oval" cx="52.5" cy="36.5" r="10.8" fill="white"/>
+</g>
+</g>
+</g>
+</svg>
