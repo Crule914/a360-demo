@@ -322,3 +322,8 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+<!-- Sync test from Claude Code, 2026-11-10 -->
+## Sync test
+
+This line was pushed from Claude Code on 2026-11-10 to confirm GitHub → Lovable sync. Safe to delete.
